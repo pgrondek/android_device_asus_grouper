@@ -16,3 +16,7 @@
 $(call inherit-product, device/asus/grouper/full_grouper.mk)
 
 PRODUCT_NAME := aosp_grouper
+PRODUCT_DEVICE := grouper
+PRODUCT_BRAND := google
+PRODUCT_MODEL := Nexus 7
+PRODUCT_MANUFACTURER := Asus
