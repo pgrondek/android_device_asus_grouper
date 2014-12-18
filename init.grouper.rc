@@ -434,7 +434,3 @@ service touch_fw_update /system/bin/sh -c "echo /system/etc/firmware/touch_fw.ek
     group root
     oneshot
 
-service dt2w /system/bin/sh -c "echo 1 > /sys/android_touch/doubletap2wake"
-    class late_start
-    user root
-    group root
